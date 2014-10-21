@@ -2,10 +2,13 @@
 
 class UserController extends BaseController
 {
-    public function getWelcome()
+    public function getWelcome($hoge = null)
     {
         $users = User::all();
-        return View::make('users')->with('users', $users);
+        return View::make('users')->with(array(
+            'users' => $users,
+            'hoge'  => $hoge
+        ));
     }
 }
 
