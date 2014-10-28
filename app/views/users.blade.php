@@ -3,9 +3,7 @@
 
 @section('content')
     @foreach ($users as $user)
-        <p>{{ $user->name }}</p>
+        <p>{{ $user->name }} : {{ $user->created_at }}</p>
     @endforeach
-    <p>{{ $hoge }}</p>
 @stop
-
 

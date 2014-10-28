@@ -1,5 +1,5 @@
 common
 
-@yield('content');
+@yield('content')
 
 
