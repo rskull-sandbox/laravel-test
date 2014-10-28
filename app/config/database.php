@@ -48,10 +48,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'us-cdbr-iron-east-01.cleardb.net',
-			'database'  => 'heroku_87c787ac7e1efd4',
-			'username'  => 'b0e983dd26022a',
-			'password'  => '74e219a7',
+			'host'      => 'localhost',
+			'database'  => 'laravel',
+			'username'  => 'root',
+			'password'  => 'test1234',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
